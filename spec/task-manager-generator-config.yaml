@@ -1,0 +1,10 @@
+provider:
+  name: task-manager
+resources:
+  user:
+    create:
+      path: /api/users
+      method: POST
+    read:
+      path: /api/users
+      method: GET
